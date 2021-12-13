@@ -1,7 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
   <meta charset="utf-8">
+  <script type="text/javascript">
+    $(document).ready(function(){     
+      $ (".pi").mouseover(function(){
+        $(this).css('opacity','1');
+      });
+      $ (".pi").mouseleave(function(){
+        $(this).css('opacity','0.5');
+      });
+    });
+  </script>
   <title></title>
   <style>
     *{margin: 0px; padding: 0px;}
@@ -38,6 +49,9 @@
       line-height: 40px;
       margin-top: 15px;
       padding: 12px;
+    }
+    .pi{
+      opacity: 0.5;
     }
     #main_menu li{
       padding: 0 20px 0 20px;
@@ -142,28 +156,28 @@
     <main>
       <h2>트레이닝복</h2>
       <hr>
-      <div id=box><a href=#><img src="img/white.jpg"><p><strong>맨유 트레이닝<br>웜탑-흰색<br>￦120,000</strong></p></a></div>
-      <div id=box><a href=#><img src="img/black.jpg"><p><strong>맨유 트레이닝<br>웜탑-블랙<br>￦120,000</strong></p></a></div>
-      <div id=box><a href=#><img src="img/suit.jpg"><p><strong>맨유 트레이닝<br>프레젠테이션 수트<br>￦120,000</strong></p></a></div>
-      <div id=box><a href=#><img src="img/pants.jpg"><p><strong>맨유 트레이닝<br>웜팬츠-블랙<br>￦65,000</strong></p></a></div>
-      <div id=box><a href=#><img src="img/polo.jpg"><p><strong>맨유 트레이닝<br>트레이닝 폴로<br>￦46,000</strong></p></a></div>
-      <div id=box><a href=#><img src="img/Ajaket.jpg"><p><strong>맨유<br>앤섬자켓 <br>￦120,000</strong></p></a></div>
-      <div id=box><a href=#><img src="img/UCLtop.jpg"><p><strong>맨유 UCL<br>트레이닝 상의<br>￦88,000</strong></p></a></div>
-      <div id=box><a href=#><img src="img/Pjaket.jpg"><p><strong>맨유 UCL트레이닝<br>프레젠테이션 재킷<br>￦88,000</strong></p></a></div>
-      <div id=box><a href=#><img src="img/cap.jpg"><p><strong>맨유 트레이닝<br>비니<br>￦39,000</strong></p></a></div><div class="clear"></div>
+      <div id=box><a href=#><img class="pi" src="img/white.jpg"><p><strong>맨유 트레이닝<br>웜탑-흰색<br>￦120,000</strong></p></a></div>
+      <div id=box><a href=#><img class="pi" src="img/black.jpg"><p><strong>맨유 트레이닝<br>웜탑-블랙<br>￦120,000</strong></p></a></div>
+      <div id=box><a href=#><img class="pi" src="img/suit.jpg"><p><strong>맨유 트레이닝<br>프레젠테이션 수트<br>￦120,000</strong></p></a></div>
+      <div id=box><a href=#><img class="pi" src="img/pants.jpg"><p><strong>맨유 트레이닝<br>웜팬츠-블랙<br>￦65,000</strong></p></a></div>
+      <div id=box><a href=#><img class="pi" src="img/polo.jpg"><p><strong>맨유 트레이닝<br>트레이닝 폴로<br>￦46,000</strong></p></a></div>
+      <div id=box><a href=#><img class="pi" src="img/Ajaket.jpg"><p><strong>맨유<br>앤섬자켓 <br>￦120,000</strong></p></a></div>
+      <div id=box><a href=#><img class="pi" src="img/UCLtop.jpg"><p><strong>맨유 UCL<br>트레이닝 상의<br>￦88,000</strong></p></a></div>
+      <div id=box><a href=#><img class="pi" src="img/Pjaket.jpg"><p><strong>맨유 UCL트레이닝<br>프레젠테이션 재킷<br>￦88,000</strong></p></a></div>
+      <div id=box><a href=#><img class="pi" src="img/cap.jpg"><p><strong>맨유 트레이닝<br>비니<br>￦39,000</strong></p></a></div><div class="clear"></div>
       <h2>유니폼</h2>
       <hr>
-      <div id=box><a href=#><img src="img/homekit.jpg"><p><strong>맨체스터 유나이티드<br>홈-유니폼<br>￦139,000</strong></p></a></div>
-      <div id=box><a href=#><img src="img/awaykit.jpg"><p><strong>맨체스터 유나이티드<br>어웨이-유니폼<br>￦129,000</strong></p></a></div>
-      <div id=box><a href=#><img src="img/thirdkit.jpg"><p><strong>맨체스터 유나이티드<br>써드-유니폼<br>￦129,000</strong></p></a></div>
-      <div id=box><a href=#><img src="img/keeper.jpg"><p><strong>맨체스터 유나이티드<br>골키퍼-유니폼<br>￦146,000</strong></p></a></div>
-      <div id=box><a href=#><img src="img/free.jpg"><p><strong>맨체스터 유나이티드<br>프리매치-유니폼<br>￦88,000</strong></p></a></div><div class="clear"></div>
+      <div id=box><a href=#><img class="pi" src="img/homekit.jpg"><p><strong>맨체스터 유나이티드<br>홈-유니폼<br>￦139,000</strong></p></a></div>
+      <div id=box><a href=#><img class="pi" src="img/awaykit.jpg"><p><strong>맨체스터 유나이티드<br>어웨이-유니폼<br>￦129,000</strong></p></a></div>
+      <div id=box><a href=#><img class="pi" src="img/thirdkit.jpg"><p><strong>맨체스터 유나이티드<br>써드-유니폼<br>￦129,000</strong></p></a></div>
+      <div id=box><a href=#><img class="pi" src="img/keeper.jpg"><p><strong>맨체스터 유나이티드<br>골키퍼-유니폼<br>￦146,000</strong></p></a></div>
+      <div id=box><a href=#><img class="pi" src="img/free.jpg"><p><strong>맨체스터 유나이티드<br>프리매치-유니폼<br>￦88,000</strong></p></a></div><div class="clear"></div>
       <h2>액세서리</h2>
       <hr>
-      <div id=box><a href=#><img src="img/bag.jpg"><p><strong>맨체스터 유나이티드<br>부트 가방<br>￦17,100</strong></p></a></div>
-      <div id=box><a href=#><img src="img/oldtra.jpg"><p><strong>맨체스터 유나이티드<br>스타디움 2단 지갑<br>￦34,100</strong></p></a></div>
-      <div id=box><a href=#><img src="img/trip.jpg"><p><strong>맨체스터 유나이티드<br>여행용 가방<br>￦34,100</strong></p></a></div>
-      <div id=box><a href=#><img src="img/small.jpg"><p><strong>맨체스터 유나이티드<br>크래스트 메시저백<br>￦35,000</strong></p></a></div><div class="clear"></div>
+      <div id=box><a href=#><img class="pi" src="img/bag.jpg"><p><strong>맨체스터 유나이티드<br>부트 가방<br>￦17,100</strong></p></a></div>
+      <div id=box><a href=#><img class="pi" src="img/oldtra.jpg"><p><strong>맨체스터 유나이티드<br>스타디움 2단 지갑<br>￦34,100</strong></p></a></div>
+      <div id=box><a href=#><img class="pi" src="img/trip.jpg"><p><strong>맨체스터 유나이티드<br>여행용 가방<br>￦34,100</strong></p></a></div>
+      <div id=box><a href=#><img class="pi" src="img/small.jpg"><p><strong>맨체스터 유나이티드<br>크래스트 메시저백<br>￦35,000</strong></p></a></div><div class="clear"></div>
     </main>
     <div class="clear"></div>
     <nav>
